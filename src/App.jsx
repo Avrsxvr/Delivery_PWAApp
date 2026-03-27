@@ -9,7 +9,7 @@ function App() {
   const { deferredPrompt, isAppInstalled, isIOS, installApp } = usePWAInstall();
   const [showInstallBanner, setShowInstallBanner] = useState(false);
   const [isRedirecting, setIsRedirecting] = useState(false);
-  const targetUrl = 'https://www.vcb.services';
+  const targetUrl = 'https://www.hambresucks.com';
 
   const handleRedirect = useCallback(() => {
     if (isRedirecting) return;
@@ -65,10 +65,10 @@ function App() {
 
       <div className="container animate-fade-in">
         <div className="logo-wrapper delay-1">
-          <img src="/icons/icon.jpg" alt="Pollito chicken Fingers Logo" className="logo-img" />
+          <img src="/icons/app-icon.png" alt="Hambre Logo" className="logo-img" />
         </div>
         
-        <h1 className="title delay-2">POLLITO CHICKEN FINGERS</h1>
+        <h1 className="title delay-2">ENTREGA INMEDIATE</h1>
         <p className="subtitle delay-3">
           Access instantly from your home screen for a seamless, fast experience.
         </p>
